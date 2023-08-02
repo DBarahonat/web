@@ -1,0 +1,31 @@
+/* *= es un selector universal  todo cambia a favor del selector universal color y todo */
+*{
+    color: blue;
+
+}
+
+/*Para modificar el selector de p*/
+/*p{
+    color: blue;
+}
+*/
+/*:Para una clase especifica*/
+.p1{
+    /*Color de letra*/
+color: darkslateblue;
+/*tamaño de letra */
+font-size: 24px;
+}
+.p2{
+    color:brown;
+    font-size: 24px;
+}
+/*Selecciona dos elementos */
+h1,h2{
+    color: green;
+}
+/*Seleccionar por id
+#nombreId*/
+#subtitulo{
+    color: cadetblue;
+}

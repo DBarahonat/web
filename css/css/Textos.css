@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    color: #222fff;
+    /*Colorcar contenido*/
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    /*Para convertir de mayuscula a minuscula o alrevez*/
+    text-transform: uppercase;
+    /*Tamaño de texto*/
+    font-size: small;
+    /*Estilo del texto*/
+    font-style: italic;
+    /*Grosor de la letra*/
+    font-weight: 900;
+    text-indent: 40px;
+    line-height: 1.7;
+    /*Separar espacio*/
+    word-spacing: 10px;
+    /*mover la sombra hacia los lados */
+    text-shadow: 4px 3px 2px red;
+}
+
+a{
+    text-decoration: none;
+    /*De minuscula a mayuscula*/
+    text-transform: capitalize;
+    letter-spacing: 3px;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}

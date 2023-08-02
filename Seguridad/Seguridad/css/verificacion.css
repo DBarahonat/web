@@ -1,0 +1,78 @@
+body {
+    background-color: #fff;
+    color: rgba(0,0,0,0.87);
+    font: 400 14px/20px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    min-height: 320px;
+    min-width: 240px;
+    position: relative;
+    font-optical-sizing: auto;
+}
+
+.encabezado {
+    width: 100%;
+    height: 164px;
+    padding: 5px 0;
+    border: 3px solid rgb(60, 64, 67);
+    border-radius: 10px;
+   /* float:left;
+    text-align: center;*/
+    display:flexbox
+  }
+
+.btnayuda{
+    float: right;
+    text-align: right;
+  }
+  .btnmas{
+    float: right;
+    text-align: right;
+  }
+
+  .btncorreo{
+    float: right;
+    text-align: right;
+  }
+
+
+
+
+  .G {
+    color: #4285f4;
+  }
+  .o-1 {
+    color: #ea4335;
+  }
+  
+  .o-2 {
+    color: #ffbb00;
+  }
+  .g {
+    color: #4285f4;
+  }
+  
+  .l {
+    color: #34a853;
+  }
+  .e {
+    color: #ea4335;
+  }
+
+  .cuenta{
+    color: #5f6368;
+    opacity: 1;
+    padding-left: 4px;
+  }
+
+  .cuerpo{
+    width: 50%;
+    height: 300px;
+    border: 3px solid rgb(60, 64, 67);
+  border-radius: 10px;
+  margin: 15px;
+  align-content: center;
+  align-items: center;
+  border-style: none none double none;
+}
+  
+
+

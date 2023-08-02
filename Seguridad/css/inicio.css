@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 0.01428571em;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: rgb(60, 64, 67);
+  font-optical-sizing: auto;
+}
+/*Encabezado Caja*/
+
+.encabezado {
+  text-align: center;
+  padding: 5px 0;
+  
+}
+
+.google {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  padding: 20px 0;
+}
+.G {
+  color: #4285f4;
+}
+.o-1 {
+  color: #ea4335;
+}
+
+.o-2 {
+  color: #ffbb00;
+}
+.g {
+  color: #4285f4;
+}
+
+.l {
+  color: #34a853;
+}
+.e {
+  color: #ea4335;
+}
+.huawe{font-size: 23px;}
+
+/*Respuesta*/
+.seccion {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+.box {
+  width: 516px;
+  height: 515.9px;
+  border-style: ridge;
+  border-radius: 10px;
+  margin: 15px;
+  float: left;
+}
+
+.box2 {
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 3px solid rgb(41, 50, 57);
+  /*Falta ocupo solo el borde de abajo*/
+  /*border: 3px solid rgb(60, 64, 67);*/
+  margin: 15px;
+  border-style: none none ridge none;
+}
+
+.texto{
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+}
+
+.boton{
+    width: 105px;
+    text-align: center;
+    border-radius: 3px;
+    background: #0e28ee;
+}

@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.caja{
+    background: #0e6ba8;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    /*Para colocar las cajas ordenadas para la izquierda  o derecha*/
+    /*float: left;*/
+}
+
+
+.caja-padre{
+    margin: 20px;
+    background: #cf541b;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+  
+}
+
+.position{
+    background: #17ad5d;
+    /*Para moverlo con posicion*/
+    /*La posicion Relative dice que se puede mover el dic pero la posicion que tenia no sera ocupada*/
+    /*La posicion absoluta dice que sera ocupado el espacio que dejo al ser movido*/
+    /*Position fixed= dice que la posicion es fija siempre estara en la pantalla 
+    y no se movera como los videos en pantalla pequeña*/
+    position: fixed;
+    /*Para moverlo a la izquierda */
+    /*left: 300px;
+    /*Mover hacia a abajo*/
+   /* top: 100px;*/
+   /*Mover hacia abajo*/
+   bottom: 0%;
+   right: 0%;
+}

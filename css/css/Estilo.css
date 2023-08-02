@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+    /*Tamaño de la letra se puede con px o medio grande exte*/
+    font: size 20px;;
+    /*Para centrar el texto*/
+    text-align: center;
+}
+
+body{
+    background: green;
+    /*Cambio de tipo de letra*/
+    font-family: sans-serif;
+}
+
+p{
+   color: red;
+}

@@ -1,0 +1,28 @@
+
+body{
+    font-family: Arial;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+
+th,td{
+    padding: 10px;
+
+}
+
+th{
+    background: #165ea1;
+    color: #fff;
+}
+/*Para cuando se seleccione cambie de color*/
+tr:hover{
+    background-color: #bf2bbd;
+}

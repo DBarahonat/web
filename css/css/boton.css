@@ -1,0 +1,56 @@
+body{
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div{
+    margin: 20px 0px;
+    
+}
+
+.btn{
+    background: #530d18;
+    color: #f2f2f2;
+    font-size: 16px;
+    padding: 15px 20px ;
+    margin: 0 10px;
+    border-style: none;
+
+}
+
+.btn:hover{
+    opacity: 0.8;
+    /*Para cambiar el puntero por una mano cuando pase por el boton*/
+    cursor: pointer;
+}
+
+/*Tamaño*/
+.small{
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.mediun{
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+.big{
+    font-size: 16px;
+    padding: 20px 25px;
+}
+
+.azul{
+    background: #246eb9;
+}
+.verde{
+    background: #2fff01;
+}
+.naranja{
+    background: #eebb05;
+}
+/*Efectos*/
+.border-radius{
+    border-radius: 30px;
+}

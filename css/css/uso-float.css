@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial;
+}
+
+.main{
+    background: #71d867;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    /*Respeta a la caja padre y coloca las cajas */
+    overflow: hidden;
+
+}
+
+.caja{
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+}
+
+.img{
+    float: left;
+    width: auto;
+}
+
+.text{
+    float: left;
+}
+
+.articulo{
+    background: rgb(83, 216,221);
+    width: 500px;
+    margin: auto;
+
+}
+
+.articulo h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.articulo img{
+    float: right;
+}

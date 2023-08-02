@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+    <link rel="stylesheet" href="css/Mein.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <h1 class="header-title">Figuras Geometricas</h1>
+        <p class="header-descripcion">Calcular las medidas de figuras</p>
+    </header>
+
+    <!-- Respuestas -->
+    <div class="respuesta">
+        <p id="resultado"></p>
+    </div>
+
+    <!--Seccion de Cajas-->
+    <section class="figuras">
+        <!--Cuadro Principal-->
+        <div class="caja">
+            <!--Cuadro Contiene el jeader-->
+            <div class="caja-encabezado">
+                <h2>Cuadrado</h2>
+            </div>
+            <div class="caja-Principal">
+                <p class="box-main__text">Cuanto mide cada lado del Cuadrado</p>
+                <input class="box-main__input" 
+                type="number" 
+                name="side" 
+                id="inputSide"
+                placeholder="Ingrese los lados"
+                >
+                
+                <button class="box-main__btn" type="button" onclick="CalculoPerimetro()">Perimetro</button>
+                <button class="box-main__btn" type="button" onclick="CalculoArea()">Area</button>
+            </div>
+
+        </div>
+
+        <!--Caja 2-->
+        <div class="caja">
+            <!--Cuadro Contiene el jeader-->
+            <div class="caja-encabezado">
+                <h2>Triangulo</h2>
+            </div>
+            <div class="caja-Principal">
+                <p class="box-main__text">Cuanto mide cada lado del Cuadrado</p>
+                <input 
+                    class="box-main__input" 
+                    type="number" 
+                    name="inputSide1" 
+                    id="inputSide1"
+                    placeholder="Ingrese lado 01"
+                >
+                <input 
+                    class="box-main__input" 
+                    type="number" 
+                    name="inputSide2" 
+                    id="inputSide2"
+                    placeholder="Ingrese lado 02"
+                >
+                <input 
+                    class="box-main__input" 
+                    type="number" 
+                    name="inputSide3" 
+                    id="inputSide3"
+                    placeholder="Ingrese lado 03"
+                >
+
+
+                <input 
+                    class="box-main__input" 
+                    type="number" 
+                    name="inputBase" 
+                    id="inputBase"
+                    placeholder="Ingrese Base"
+                >
+                <input 
+                    class="box-main__input" 
+                    type="number" 
+                    name="inputHeight" 
+                    id="inputHeight"
+                    placeholder="Ingrese Altura"
+                >
+                <button class="box-main__btn" type="button" onclick="calculetePerimTriangle()">Perímetro</button>
+                <button class="box-main__btn" type="button" onclick="calculeteAreaTriangle()">Área</button>
+            </div>
+
+        </div>
+
+
+        <!--Caja 3-->
+        <div class="caja">
+            <!--Cuadro Contiene el jeader-->
+            <div class="caja-encabezado">
+                <h2>Circulo</h2>
+            </div>
+            <div class="caja-Principal">
+                <p class="box-main__text">Cuanto mide El radio de tu Circulo</p>
+                <input class="box-main__input" 
+                type="number" 
+                name="side" 
+                id="side"
+                placeholder="Ingrese Radio"
+                >
+                <button class="box-main__btn" type="button">Diametro</button>
+                <button class="box-main__btn" type="button">Perimetro</button>
+                <button class="box-main__btn" type="button">Area</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/geometrics.js"></script>
+
+    
+</body>
+</html>

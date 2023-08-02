@@ -1,0 +1,13 @@
+body{
+    font-family: Arial;
+}
+
+ul{
+    /*Para eliminar el estilo de la lista desordenada none dis agrega los puntos Scuar es cuadrado */
+    list-style: none;
+}
+
+ol{
+    /*Lo mismo que el anterios decimal 01 a 05 lovelRoman numeros Romanos ApperRoman Romanos mayusculas*/
+    list-style: lower-latin;
+}

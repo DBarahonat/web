@@ -1,0 +1,63 @@
+*{
+    /*Para no tener prtoblemas con los estilos por defecto del navegador arregla los bordes */
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.Menu{
+    /*Color de fondo */
+    background-color: #13a4a4;
+    /*Padding es como el margen va*/
+    padding: 10px 0;
+}
+
+/*Para wquitar los puntos de la lista*/
+.Menu-nav{
+    /*Elimina el estilo de la lista */
+    list-style: none;
+    /*Para que inicie desde  es el contenedor izquierDA derecha arriba abajo*/
+    padding: 5px ;
+    margin: 0px;
+}
+
+.Menu-nav__item{
+    /*Para cambiar la aliniacion  en vez de ir para abajo va a los lados */
+    display: inline-block;
+}
+
+/*Selecciona una clase que tiene un elemmento con etiqueta que esta dentro de la clase*/
+
+.Menu-nav__item a{
+    color: #ffff;
+    /*Quitar le subrayado del link */
+    text-decoration: none;
+}
+
+/*Seudo Clase*/
+.Menu-nav__item a:hover{
+    /*Cuando pasa el puntero por encima cambia de color*/
+    color: rgb(244, 67, 67);
+}
+
+.Menu-nav__item a:active{
+    /*El cactiv cuando un menu esta activo o sea cuanbdo hace cliuck cambia de color */
+    color: rgb(39, 113, 197);
+}
+
+.Menu-nav__item a::after{
+    /*Agrega un elemento en medio de los link*/
+    content: " -|- ";
+}
+
+/*Modelo de caja*/
+
+main{
+    width: 100%;
+    height: 300px;
+    border: 10px solid grey;/*Para que no se mire el margen */
+    padding: 20px 35px;
+    
+}
+
